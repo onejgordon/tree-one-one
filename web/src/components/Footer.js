@@ -9,8 +9,8 @@ export default function Footer({ theme }) {
   if (AppConstants.YEAR != YEAR) year_text = <span>&copy; { AppConstants.YEAR } - { YEAR } { AppConstants.SITENAME }</span>
   else year_text = <span>&copy; { YEAR } { AppConstants.SITENAME }</span>
   return (
-    <Box style={styles.footer}>
-        <Typography align="center">{ year_text } | Free and Open Source Software</Typography>
+    <Box className="footer">
+        <Typography align="center">{ year_text } | Free and Open Source Software | <a href={AppConstants.GITHUB_LINK} target='_blank'>Fork on Github</a></Typography>
         <Typography align="center" style={styles.subhead}>Also check out the official <a href={AppConstants.NYC_TREE_MAP_LINK} target="_blank">NYC Tree Map</a> (best in a browser)</Typography>
     </Box>
   )
@@ -18,14 +18,6 @@ export default function Footer({ theme }) {
 
 
 const styles = {
-  footer: {
-    position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
-    color: "#999",
-    padding: 20
-  },
   subhead: {
     fontSize: "0.8em"
   }

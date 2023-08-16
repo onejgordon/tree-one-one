@@ -103,3 +103,4 @@ web/node_modules/*
 web/.firebaserc
 web/src/config/firebase.js
 frontend/iOS/TreeOneOne/Settings/Config.xcconfig
+web/.firebase/*

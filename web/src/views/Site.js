@@ -1,5 +1,3 @@
-import Footer from '../components/Footer'
-import TopBar from '../components/TopBar'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Outlet, useOutletContext } from "react-router-dom";
 import { SnackbarProvider } from 'notistack'
