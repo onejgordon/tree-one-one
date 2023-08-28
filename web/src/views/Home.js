@@ -57,18 +57,17 @@ export default function Home() {
 
 const styles = {
     steps: {
-        fontSize: '2em'
+        fontSize: '1.7em'
     },
     tagline: {
         fontSize: '4em',
         color: 'white',
-        maxWidth: "600px"
     },
     subhead: {
         fontSize: '2em',
         maxWidth: "600px"
     },
     main: {
-        marginTop: 100
+        marginTop: 50
     }
 }
